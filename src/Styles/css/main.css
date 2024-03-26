@@ -1,7 +1,43 @@
 .headerMain {
+  display: flex;
+  justify-content: space-between;
   color: #006E90;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.headerMain div {
+  font-size: clamp(4rem, 3.667rem + 1.481vw, 5rem);
+}
+.headerMain ul {
+  font-size: clamp(1.2rem, 1.1rem + 0.444vw, 1.5rem);
+  font-weight: 800;
+  list-style: none;
+  color: #686868;
+  text-align: right;
+}
+.headerMain ul li a {
+  text-decoration: none;
+  color: #686868;
+}
+.headerMain ul .aboutTitle {
+  color: white;
+}
+.headerMain ul .resumeTitle {
+  color: white;
+}
+.headerMain ul .projectsTitle {
+  color: white;
 }
 
 body {
   background-color: #1C0028;
+}
+body main {
+  width: 100%;
+}
+body main .image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
