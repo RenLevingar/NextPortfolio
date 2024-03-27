@@ -1,9 +1,10 @@
 .headerMain {
     display: flex;
+    width: auto;
     justify-content: space-between;
     color: #006E90;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin-left: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
+    margin-right: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
 
     div{
         font-size: clamp(4rem, 3.667rem + 1.481vw, 5rem);

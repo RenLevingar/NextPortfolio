@@ -1,7 +1,26 @@
-@import './partials/header';
+@import './partials/header', './partials/aboutme';
 
 body {
+    overflow-x: hidden;
     background-color: #1C0028;
+    margin: 0;
+    padding: 0;
+
+    .titleBox{
+        margin: clamp(0.75rem, 0.625rem + 0.556vw, 1.125rem);
+    }
+
+    h1{
+        color: #ffffff;
+        font-size: clamp(2.3rem, 1.917rem + 1.704vw, 3.45rem);
+        margin: 0;
+    }
+
+    h2{
+        color: #006E90;
+        font-size: clamp(1.8rem, 1.5rem + 1.333vw, 2.7rem);
+        margin: 0;
+    }
 
     main{
         width: 100%;
@@ -11,5 +30,12 @@ body {
             align-items: center;
             justify-content: center;
         }
+    }
+
+    img{
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        margin: 2rem;
     }
 }
