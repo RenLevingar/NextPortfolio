@@ -36,6 +36,31 @@ body {
   margin: 0;
   padding: 0;
 }
+body .aboutMeSection {
+  color: white;
+  margin-top: clamp(1rem, 0.643rem + 0.952vw, 1.5rem);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: clamp(2rem, 1.286rem + 1.905vw, 3rem);
+  padding-top: 0;
+}
+body .aboutMeSection h3 {
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  body .aboutMeSection {
+    flex-direction: column;
+  }
+  body .aboutMeSection h3 {
+    margin-top: 1.5rem;
+    font-size: clamp(1.5rem, 0.964rem + 1.429vw, 2.25rem);
+  }
+  body .aboutMeSection p {
+    margin-top: 0.6rem;
+    font-size: clamp(1rem, 0.643rem + 0.952vw, 1.5rem);
+  }
+}
 body .titleBox {
   margin: clamp(0.75rem, 0.625rem + 0.556vw, 1.125rem);
 }
@@ -59,8 +84,18 @@ body main .image-container {
   justify-content: center;
 }
 body img {
-  width: 80vw;
+  width: clamp(7.5rem, -2.857rem + 27.619vw, 22rem);
   height: auto;
   text-align: center;
   margin: 2rem;
+}
+@media (max-width: 600px) {
+  body img {
+    width: 50vw;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
