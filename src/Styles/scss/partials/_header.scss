@@ -1,13 +1,25 @@
 .headerMain {
     display: flex;
+    flex-direction: column;
+    background-image: url('../../../public/images/purpleBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
-    justify-content: space-between;
+    height: 100vh;
     color: #006E90;
-    margin-left: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
-    margin-right: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
+    justify-content: space-between;
+    
+    .headerDiv {
+        display: flex;
+        justify-content: space-between;
+    }
 
     div{
         font-size: clamp(4rem, 3.667rem + 1.481vw, 5rem);
+    }
+
+    .titleInitials{
+        margin-left: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
     }
 
     ul{
@@ -16,6 +28,7 @@
         list-style: none;
         color: #686868;
         text-align: right;
+        margin-right: clamp(0.8rem, 0.667rem + 0.593vw, 1.2rem);
 
         li{
             a{

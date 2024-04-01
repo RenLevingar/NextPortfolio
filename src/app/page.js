@@ -15,10 +15,10 @@ export default function Home() {
       <Header listItem={"aboutme"}/>
 
       {/* title */}
-      <div className='titleBox'>
+      {/* <div className='titleBox'>
         <h1>Ren Levingar</h1>
         <h2>Web Developer</h2>
-      </div>
+      </div> */}
 
       {/* short about me section */}
       {/* <section className='aboutMeSection'>
