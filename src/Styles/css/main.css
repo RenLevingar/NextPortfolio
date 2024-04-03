@@ -2,16 +2,28 @@
   display: flex;
   flex-direction: column;
   background-image: url("../../../public/images/purpleBackground.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   width: auto;
   height: 100vh;
   color: #006E90;
   justify-content: space-between;
+  animation: headerMainAnimation 15s linear;
+}
+@media (min-width: 1000px) {
+  .headerMain {
+    background-size: 120%;
+  }
 }
 .headerMain .headerDiv {
   display: flex;
   justify-content: space-between;
+}
+.headerMain h1 {
+  font-size: clamp(3.6rem, 2.133rem + 6.519vw, 8rem);
+}
+.headerMain h2 {
+  font-size: clamp(2.5rem, 1.667rem + 3.704vw, 5rem);
 }
 .headerMain div {
   font-size: clamp(4rem, 3.667rem + 1.481vw, 5rem);
@@ -41,6 +53,14 @@
   color: white;
 }
 
+@keyframes headerMainAnimation {
+  from {
+    background-position: left top;
+  }
+  to {
+    background-position: right top;
+  }
+}
 body {
   overflow-x: hidden;
   background-color: #1C0028;
