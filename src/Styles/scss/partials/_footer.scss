@@ -1,0 +1,36 @@
+.footerMain{
+    display: flex;
+    justify-content: space-between;
+    background-color: #006E90;
+    padding: 2rem;
+
+    h2{
+        font-size: 0.75rem;
+    }
+
+    ul{
+        display: flex;
+        font-weight: 800;
+        list-style: none;
+        font-size: 0.75rem;
+
+        li{
+            a{
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+
+        .aboutTitle{
+            color: white;
+        }
+
+        .resumeTitle{
+            color: white;
+        }
+
+        .projectsTitle{
+            color: white;
+        }
+    }
+}

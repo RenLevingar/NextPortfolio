@@ -77,6 +77,47 @@ body .personalSection h1 {
   text-align: center;
   margin-top: 2.5rem;
 }
+body .personalSection .personalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .personalSection .personalInfo .bubbleLeft {
+  position: relative;
+  left: 20vw;
+}
+body .personalSection .personalInfo .bubbleRight {
+  position: relative;
+  right: 20vw;
+}
+body .personalSection .personalInfo .personalBubble {
+  background-color: #B3B7EE;
+  border-radius: clamp(3.125rem, 0rem + 13.889vw, 12.5rem);
+  padding: clamp(0.75rem, 0.25rem + 2.222vw, 2.25rem);
+  width: 35vw;
+  height: auto;
+  text-align: center;
+  margin: clamp(2rem, 1.333rem + 2.963vw, 4rem);
+}
+body .personalSection .personalInfo .personalBubble h3 {
+  font-size: clamp(1.5rem, 1rem + 2.222vw, 3rem);
+  color: #006E90;
+}
+body .personalSection .personalInfo .personalBubble p {
+  font-size: clamp(1rem, 0.667rem + 1.481vw, 2rem);
+  padding: clamp(0.5rem, 0.333rem + 0.741vw, 1rem);
+}
+@media (max-width: 1100px) {
+  body .personalSection .personalInfo .personalBubble {
+    flex-direction: column;
+  }
+  body .personalSection .personalInfo .personalBubble p {
+    font-size: clamp(0.75rem, 0.5rem + 1.111vw, 1.5rem);
+  }
+  body .personalSection .personalInfo .personalBubble h3 {
+    font-size: clamp(1rem, 0.667rem + 1.481vw, 2rem);
+  }
+}
 body .aboutMeSection {
   color: white;
   display: flex;
@@ -154,6 +195,35 @@ body img {
   body img {
     width: 50vw;
   }
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-between;
+  background-color: #006E90;
+  padding: 2rem;
+}
+.footerMain h2 {
+  font-size: 0.75rem;
+}
+.footerMain ul {
+  display: flex;
+  font-weight: 800;
+  list-style: none;
+  font-size: 0.75rem;
+}
+.footerMain ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.footerMain ul .aboutTitle {
+  color: white;
+}
+.footerMain ul .resumeTitle {
+  color: white;
+}
+.footerMain ul .projectsTitle {
+  color: white;
 }
 
 * {
