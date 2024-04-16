@@ -1,23 +1,32 @@
 .footerMain{
-    display: flex;
-    justify-content: space-between;
     background-color: #006E90;
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(0.5rem, 0rem + 2.222vw, 2rem);
 
     h2{
-        font-size: 0.75rem;
+       font-size: clamp(0.8rem, 0.233rem + 2.519vw, 2.5rem);
+       font-weight: 900;
+       width: 45%;
+       position: relative;
+       text-align: center;
     }
 
     ul{
         display: flex;
-        font-weight: 800;
+        justify-content: space-between;
+        flex-direction: row;
         list-style: none;
-        font-size: 0.75rem;
+        width: 55%;
+        margin-right: clamp(0.5rem, 0rem + 2.222vw, 2rem);
 
         li{
             a{
                 text-decoration: none;
                 color: #000000;
+                font-size: clamp(0.8rem, 0.233rem + 2.519vw, 2.5rem);
+                font-weight: 900;
             }
         }
 
