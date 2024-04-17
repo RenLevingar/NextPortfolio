@@ -9,7 +9,9 @@ import Image from 'next/image';
 
 export default function Home() {
   useEffect(() => {
-    AOS.init({})
+    AOS.init({
+      once: true,
+    })
   }, [])
 
   return (

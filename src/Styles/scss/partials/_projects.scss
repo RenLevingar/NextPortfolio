@@ -1,0 +1,32 @@
+.projectsSection{
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 3rem;
+        text-align: center;
+        color: #006E90;
+    }
+
+    .div1{
+        background-color: black;
+    }
+
+    .div2{
+        background-color: rgb(38, 38, 38);
+    }
+
+    .div3{
+        background-color: rgb(73, 73, 73);
+    }
+
+    .div4{
+        background-color: rgb(117, 117, 117);
+    }
+
+    .div5{
+        background-color: rgb(179, 179, 179);
+    }
+}
