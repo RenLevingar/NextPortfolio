@@ -64,7 +64,7 @@ export default function Home() {
               <h3>Coding Projects - Quote Generator</h3>
               {/* <div className='div4'></div> */}
               <a href='https://github.com/RenLevingar/random_quote'><Image src='/images/quote.png' alt="United Way Of Northern Arizona" height={500} width={500}></Image></a>
-              <p>My first time working with API's I used a quote generator that I implemented into a website that I made. This website ended winning a classroom competition for design.</p>
+              <p>My first time working with API&apos;s I used a quote generator that I implemented into a website that I made. This website ended winning a classroom competition for design.</p>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ export default function Home() {
               <h3>Coding Projects - Emberland</h3>
               {/* <div className='div5'></div> */}
               <a href='https://github.com/gbaref949/Emberland'><Image src='/images/emberland.png' alt="United Way Of Northern Arizona" height={500} width={500}></Image></a>
-              <p>This is the most recent game I've made called Emberland. It was done in a three person team and involves various basic game mechanics such as sprites and animations.</p>
+              <p>This is the most recent game I&apos;ve made called Emberland. It was done in a three person team and involves various basic game mechanics such as sprites and animations.</p>
           </div>
         </div>
       </section>
