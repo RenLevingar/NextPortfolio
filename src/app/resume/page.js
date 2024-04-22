@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import {gsap} from "gsap"
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 export default function Home() {
+  // aos and gsap need this use effect to run
   useEffect(() => {
     AOS.init({
       once: true,
@@ -23,6 +24,8 @@ export default function Home() {
     <main className='resumeMain'>
       <Header listItem={"resume"}/>
       <div className='resumeContainer'>
+
+        {/* resume experince section */}
         <section className='resumeSection'>
           <h1 data-aos='zoom-in'>Experience</h1>
 
@@ -51,6 +54,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* resume education section */}
         <section className='resumeSection'>
           <h1 data-aos='zoom-in'>Education</h1>
 
@@ -71,6 +75,7 @@ export default function Home() {
           </div>
         </section>
         
+        {/* resume skill section */}
         <section className='skillSection'>
           <h1 data-aos='zoom-in'>Key Skills</h1>
 
@@ -92,6 +97,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* resume language section */}
         <section className='languageSection'>
 
           <div>

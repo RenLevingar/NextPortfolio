@@ -1,3 +1,28 @@
+
+# Ren's Portfolio
+
+This is my portfolio that aims to display my skills and expertise. 
+
+
+## Deployment
+
+To deploy this project start off running the terminal command "npm i" to install everything
+Then use "npm run dev" to run this on a local host
+
+## Wireframe
+
+The Wireframe for this website is located in my public folder then in my images folder.
+It displays both my full screen and my mobile design as well as my notes as I devloped the website.
+
+## Libraries
+
+For the devlopment of this project I used two main libraries, AOS and Gsap.
+AOS - Aos was used for scroll triggers and a more dynamic design
+Gsap - Gsap was used to add a unique design to my projects page
+
+## Author
+- [@RenLevingar](https://github.com/RenLevingar) - Ren
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
